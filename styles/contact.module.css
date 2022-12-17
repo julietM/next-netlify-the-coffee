@@ -1,0 +1,32 @@
+.container{
+    width: 250px;
+    height: 120px;
+    background-color: darkgreen;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.label {
+    color: white;
+    padding-left: 10px;
+    margin-top: 12px;
+    
+    
+}
+.input{
+    margin-top: 13px;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+.button{
+    margin-left:89px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+@media screen and (max-width:600px) {
+    .container{
+        margin-left: 72px;
+    }
+    
+}
